@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/api/config', (req, res) => {
-const BG_COLOR = process.env.BG_COLOR || 'lightblue';
+  const BG_COLOR = process.env.BG_COLOR || 'lightblue';
   res.json({ bgColor: BG_COLOR });
 });
 
