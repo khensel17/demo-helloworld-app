@@ -9,7 +9,11 @@
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix"
   },
-  "keywords": ["hello", "world", "demo"],
+  "keywords": [
+    "hello",
+    "world",
+    "demo"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
